@@ -34,8 +34,10 @@ Marque et modele du processeur:  Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, 2208 
 
 Explication du nom du processeur: est composé de sa marque, Intel(R) Core(TM), le i7 et la pour indiqué un "type" de processeur (référence pour la marque et le consommateur), le premier chiffre après le i7 et pour la génération du processeur, les 3 chiffres après sont les SKU (Stock Keeping Unit) c'est à dire le numéro du modèle, la lettre H veut dire Haswell qui est la microarchitecture x86-64
 
-Ligne de commande pour connaitre le : Get-PnpDevice
+Ligne de commande pour connaitre le : ``Get-PnpDevice``
+
 Modele de son touchpad:
+
 Modele des enceintes intégrées:  AudioEndpoint   Haut-parleurs (Realtek High Definition Audio)
 ___________________________________________________________________________
 
