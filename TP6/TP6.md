@@ -530,3 +530,7 @@ lien des scripts
 Script 1:
 
 Script 2: https://github.com/exender/TPReseaux/blob/master/TP6/script_2.bat
+
+_______________________________________________________________________________
+Gestion de softs
+----------------------------------------------------------------------------
