@@ -386,7 +386,7 @@ Processus
  
  J'ai pas tous mit sinon ca serai imbuvable
 
-Nom de l’image                 PID Nom de la sessio Numéro de s Utilisation
+```powershell Nom de l’image                 PID Nom de la sessio Numéro de s Utilisation
 ========================= ======== ================ =========== ============
 System Idle Process              0 Services                   0         8 Ko 
 
@@ -491,7 +491,7 @@ svchost.exe                   3304 Services                   0     4 224 Ko
 svchost.exe                   3484 Services                   0    13 416 Ko
 
 svchost.exe                   3540 Services                   0    10 992 Ko
-
+```
 
 Ce que j'ai retenue pour les expliquer 
 
