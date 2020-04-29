@@ -32,9 +32,7 @@ On connait le nombre de coeur grace a la commande ``echo $env:NUMBER_OF_PROCESSO
 
 Marque et modele du processeur:  Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, 2208 MHz, 6 cœur(s), 12 processeur(s) logique(s)
 
-Explication du nom du processeur: 
-
-La lettre H veut dire Haswell qui est la microarchitecture x86-64
+Explication du nom du processeur: est composé de sa marque, Intel(R) Core(TM), le i7 et la pour indiqué un "type" de processeur (référence pour la marque et le consommateur), le premier chiffre après le i7 et pour la génération du processeur, les 3 chiffres après sont les SKU (Stock Keeping Unit) c'est à dire le numéro du modèle, la lettre H veut dire Haswell qui est la microarchitecture x86-64
 
 Ligne de commande pour connaitre le : Get-PnpDevice
 Modele de son touchpad:
@@ -511,7 +509,7 @@ wininit.exe  4 280 Ko initializer de windows au demarage de la machine programme
 
 lsass.exe   16 508 Ko sert a l'identification des utilisateurs 
 
-fontdrvhost.exe  1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les 
+fontdrvhost.exe  1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les fenetre et les elements graphiques
 
 ----------------------------------------------------------------------------
 Scripting
