@@ -501,9 +501,13 @@ svchost.exe                   3540 Services                   0    10 992 Ko
 Ce que j'ai retenue pour les expliquer :
 
 smss.exe  Gestionnaire de Session du Sous-Système gere toutes les app au demarages
+
 csrss.exe  Sert à gérer les fenêtres et les éléments graphiques de Windows. 
+
 wininit.exe   initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
+
 lsass.exe  sert a l'identification des utilisateurs 
+
 fontdrvhost.exe  est un composant logiciel de Windows font driver management qui permet de gerer les fenetre et les elements graphiques
 
 ----------------------------------------------------------------------------
