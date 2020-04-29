@@ -488,10 +488,16 @@ NVIDIA Web Helper.exe        14368 Console                    3    10 444 Ko
 
 
 Ce que j'ai retenue pour les expliquer 
-smss.exe  472 Ko Gestionnaire de Session du Sous-Système gere toutes les app au demarages
-csrss.exe   0     3 688 Ko Sert à gérer les fenêtres et les éléments graphiques de Windows. 
+
+smss.exe  472 Ko 
+Gestionnaire de Session du Sous-Système gere toutes les app au demarages
+
+csrss.exe 3 688 Ko Sert à gérer les fenêtres et les éléments graphiques de Windows. 
+
 wininit.exe  4 280 Ko initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
+
 lsass.exe   16 508 Ko sert a l'identification des utilisateurs 
+
 fontdrvhost.exe  1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les 
 
 ----------------------------------------------------------------------------
