@@ -55,6 +55,7 @@ Modele de son disque dur principal: Number FriendlyName         SerialNumber    
 Number FriendlyName         SerialNumber      MediaType CanPool OperationalStatus HealthStatus Usage            Size
 ------ ------------         ------------      --------- ------- ----------------- ------------ -----            ----
 0      HFS128G39TND-N210A   ES88N73651010920N SSD       False   OK                Healthy      Auto-Select 119.24 GB
+
 1      HGST HTS721010A9E630 JR1004BNK44YUM    HDD       False   OK                Healthy      Auto-Select 931.51 GB
 
  
@@ -66,8 +67,11 @@ Number FriendlyName         SerialNumber      MediaType CanPool OperationalStatu
 PartitionNumber  DriveLetter Offset                                        Size Type
 ---------------  ----------- ------                                        ---- ----
 1                            1048576                                     100 MB System cette partition le boot windows
+
 2                            105906176                                    16 MB Reserved
+
 3                C           122683392                                118.12 GB Basic sert a stocker des fichiers des utilisateurs
+
 4                            126953193472                                  1 GB Recovery dossier de recuperation en cas de probleme
 
 
@@ -76,7 +80,9 @@ PartitionNumber  DriveLetter Offset                                        Size 
 PartitionNumber  DriveLetter Offset                                        Size Type
 ---------------  ----------- ------                                        ---- ----
 1                D           1048576                                  882.68 GB Basic -HHD Libre sert a stocker des fichier 
+
 2                            947775340544                                513 MB System -Grub linux sert a boot sous Ubuntu ou W10
+
 3                            948313260032                              48.33 GB Unknown -DualBoot Linux systeme linux
 
 
@@ -97,7 +103,7 @@ InterfaceIndex : 11
 Name           : Wi-Fi  carte utiliser pour le wifi par notre pc 
 InterfaceIndex : 3
 
-netstat -an
+``netstat -an``
 
 Connexions actives
 
@@ -299,12 +305,19 @@ Connexions actives
 comptes d’utilisateurs de \\DESKTOP-5BM3SUL
 
 Administrateur           bapti                    DefaultAccount
+
 Invité                   WDAGUtilityAccount       YNOV01
+
 YNOV02                   YNOV03                   YNOV04
+
 YNOV05                   YNOV06                   YNOV07
+
 YNOV08                   YNOV09                   YNOV10
+
 YNOV11                   YNOV12                   YNOV13
+
 YNOV14                   YNOV15                   YNOV16
+
 YNOV17                   YNOV18                   YNOV19
 
 Seul le user bapti est l'admin de la machine comme indiquer
