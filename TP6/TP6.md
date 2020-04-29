@@ -357,36 +357,28 @@ Connexions actives
  ------------------------------------------------------------------------
  Pour lister les differant user: ``net user``
  
-comptes d’utilisateurs de \\DESKTOP-5BM3SUL
+```powershell comptes d’utilisateurs de \\DESKTOP-5BM3SUL
 
+-------------------------------------------------------------------------------
 Administrateur           bapti                    DefaultAccount
-
 Invité                   WDAGUtilityAccount       YNOV01
-
 YNOV02                   YNOV03                   YNOV04
-
 YNOV05                   YNOV06                   YNOV07
-
 YNOV08                   YNOV09                   YNOV10
-
 YNOV11                   YNOV12                   YNOV13
-
 YNOV14                   YNOV15                   YNOV16
-
 YNOV17                   YNOV18                   YNOV19
+```
 
 ``Get-LocalUser`` pour connaitre quel session est la session admin
 
-Name               Enabled Description
+```powershell Name               Enabled Description
 ----               ------- -----------
 Administrateur     False   Compte d’utilisateur d’administration
-
 bapti              True
-
 DefaultAccount     False   Compte utilisateur géré par le système.
-
 Invité             False   Compte d’utilisateur invité
-
+```
 -----------------------------------------------------------------------------
 Processus
 --------------------------------------------------------------------------
