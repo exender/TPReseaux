@@ -295,6 +295,28 @@ Connexions actives
   UDP    [fe80::7858:68c6:9986:f45e%18]:61861  *:*
   
   
+  Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize
+
+   Id Name                                                           MainWindowTitle
+   -- ----                                                           ---------------
+20688 ApplicationFrameHost                                           Paramètres
+
+ 8852 Discord                                                        #📑-cour - Discord
+ 
+14712 explorer                                                       TP6
+
+10984 firefox                                                        1 · master · it4 / b1-mastering-host · GitLab - Mozilla Firefox
+
+22832 MicrosoftEdge                                                  Microsoft Edge
+
+17816 MicrosoftEdgeCP                                                Microsoft Edge
+
+ 9580 powershell                                                     Windows PowerShell
+ 
+ 6708 SystemSettings                                                 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+ 
+ 236 WindowsInternal.ComposableShell.Experiences.TextInput.InputApp Microsoft Text Input Application
+  
  ---------------------------------------------------------------------------
  User
  ------------------------------------------------------------------------
