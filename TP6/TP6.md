@@ -91,7 +91,7 @@ PartitionNumber  DriveLetter Offset                                        Size 
 ----------------------------------------------------------------------------
 Pour lister les cartes reseaux : ``Get-NetAdapter | fl Name, InterfaceIndex``
 
-
+```powershell
 Name           : VirtualBox Host-Only Network #2 Carte crée pour virtualbox
 InterfaceIndex : 18
 
@@ -100,7 +100,7 @@ InterfaceIndex : 11
 
 Name           : Wi-Fi  carte utiliser pour le wifi par notre pc 
 InterfaceIndex : 3
-
+```
 Quel app ecoute sur quel port:
 
 ``netstat -ano``
@@ -493,17 +493,12 @@ svchost.exe                   3484 Services                   0    13 416 Ko
 svchost.exe                   3540 Services                   0    10 992 Ko
 ```
 
-Ce que j'ai retenue pour les expliquer 
+Ce que j'ai retenue pour les expliquer :
 
-smss.exe  
-Gestionnaire de Session du Sous-Système gere toutes les app au demarages
-
+smss.exe  Gestionnaire de Session du Sous-Système gere toutes les app au demarages
 csrss.exe  Sert à gérer les fenêtres et les éléments graphiques de Windows. 
-
 wininit.exe   initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
-
 lsass.exe  sert a l'identification des utilisateurs 
-
 fontdrvhost.exe  est un composant logiciel de Windows font driver management qui permet de gerer les fenetre et les elements graphiques
 
 ----------------------------------------------------------------------------
