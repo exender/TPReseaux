@@ -295,7 +295,8 @@ Connexions actives
   UDP    [fe80::7858:68c6:9986:f45e%18]:61861  *:*
   
   
-  Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize
+  Ligne pour les programmes open
+  ``Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize``
 
    Id Name                                                           MainWindowTitle
    -- ----                                                           ---------------
