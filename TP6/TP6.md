@@ -295,8 +295,7 @@ Connexions actives
   UDP    [fe80::7858:68c6:9986:f45e%18]:61861  *:*
   
   
-  Ligne pour les programmes open
-  ``Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize``
+  Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize
 
    Id Name                                                           MainWindowTitle
    -- ----                                                           ---------------
@@ -473,3 +472,8 @@ fontdrvhost.exe  1 080 Ko est un composant logiciel de Windows font driver manag
 ----------------------------------------------------------------------------
 Scripting
 ----------------------------------------------------------------------------
+lien des scripts
+
+Script 1:
+
+Script 2: https://github.com/exender/TPReseaux/blob/master/TP6/script_2.bat
