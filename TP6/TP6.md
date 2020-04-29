@@ -17,13 +17,13 @@ architecture processeur (32-bit, 64-bit, ARM, etc) : Systemes d'exploitation 64 
 
 modèle du processeur : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, 2208 MHz, 6 cœur(s), 12 processeur(s) logique(s)
 
-C:\Users\bapti> Get-WmiObject win32_physicalmemory | Format-Table Manufacturer,Banklabel,Configuredclockspeed,Devicelocator,Capacity,Serialnumber -autosize
+ram: ``Get-WmiObject win32_physicalmemory | Format-Table`` Manufacturer,Banklabel,Configuredclockspeed,Devicelocator,Capacity,Serialnumber -autosize
 >>
-
+```powershell
 Manufacturer Banklabel Configuredclockspeed Devicelocator    Capacity Serialnumber
 ------------ --------- -------------------- -------------    -------- ------------
 Kingston     BANK 0                    2667 ChannelA-DIMM0 8589934592 E10BBF21
-
+```
 
 ## Devices
 J'ai pris la ref de mon proc dans les parametres mais sinon voila la commande :
