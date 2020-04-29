@@ -50,7 +50,9 @@ HealthStatus Usage            Size
 0      HFS128G39TND-N210A   ES88N73651010920N SSD       False   OK                Healthy      Auto-Select 119.24 GB
 ```
 
- ``Get-PhysicalDisk``
+``Get-PhysicalDisk``
+nombre de disque
+ 
 ```powershell
 Number FriendlyName         SerialNumber      MediaType CanPool OperationalStatus HealthStatus Usage            Size
 ------ ------------         ------------      --------- ------- ----------------- ------------ -----            ----
@@ -59,6 +61,7 @@ Number FriendlyName         SerialNumber      MediaType CanPool OperationalStatu
 1      HGST HTS721010A9E630 JR1004BNK44YUM    HDD       False   OK                Healthy      Auto-Select 931.51 GB
 ```
  
+ Partition
  ``Get-Partition``
 
 ```powershell
