@@ -30,8 +30,16 @@ J'ai pris la ref de mon proc dans les parametres mais sinon voila la commande :
 On connait le nombre de coeur grace a la commande ``echo $env:NUMBER_OF_PROCESSORS ``
 12
 
-Marque et modele du processeur:  Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, 2208 MHz, 6 cœur(s), 12 processeur(s) logique(s)
+Marque et modele du processeur:   ``Get-WmiObject Win32_Processor``
 
+```powershell
+Caption           : Intel64 Family 6 Model 158 Stepping 10
+DeviceID          : CPU0
+Manufacturer      : GenuineIntel
+MaxClockSpeed     : 2208
+Name              : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+SocketDesignation : U3E1
+```
 Explication du nom du processeur: est composé de sa marque, Intel(R) Core(TM), le i7 et la pour indiqué un "type" de processeur (référence pour la marque et le consommateur), le premier chiffre après le i7 et pour la génération du processeur, les 3 chiffres après sont les SKU (Stock Keeping Unit) c'est à dire le numéro du modèle, la lettre H veut dire Haswell qui est la microarchitecture x86-64
 
 Ligne de commande pour connaitre le : ``Get-PnpDevice``
