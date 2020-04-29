@@ -298,7 +298,7 @@ Connexions actives
  
 comptes d’utilisateurs de \\DESKTOP-5BM3SUL
 
-Administrateur           bapti                    DefaultAccount comme le dit la commande seul cette utilisateur est l'admin de la machine
+Administrateur           bapti                    DefaultAccount
 Invité                   WDAGUtilityAccount       YNOV01
 YNOV02                   YNOV03                   YNOV04
 YNOV05                   YNOV06                   YNOV07
@@ -306,6 +306,8 @@ YNOV08                   YNOV09                   YNOV10
 YNOV11                   YNOV12                   YNOV13
 YNOV14                   YNOV15                   YNOV16
 YNOV17                   YNOV18                   YNOV19
+
+Seul le user bapti est l'admin de la machine comme indiquer
 
 -----------------------------------------------------------------------------
 Processus
@@ -319,14 +321,14 @@ Nom de l’image                 PID Nom de la sessio Numéro de s Utilisation
 System Idle Process              0 Services                   0         8 Ko 
 System                           4 Services                   0        44 Ko 
 Registry                       144 Services                   0    53 972 Ko
-smss.exe                       496 Services                   0       472 Ko Gestionnaire de Session du Sous-Système gere toutes les app au demarages
-csrss.exe                      724 Services                   0     3 688 Ko Sert à gérer les fenêtres et les éléments graphiques de Windows. 
-wininit.exe                    828 Services                   0     4 280 Ko initializer de windows
+smss.exe                       496 Services                   0       472 Ko 
+csrss.exe                      724 Services                   0     3 688 Ko 
+wininit.exe                    828 Services                   0     4 280 Ko 
 services.exe                   900 Services                   0     8 048 Ko
-lsass.exe                      920 Services                   0    16 508 Ko sert a l'identification des utilisateurs 
+lsass.exe                      920 Services                   0    16 508 Ko 
 svchost.exe                    620 Services                   0     1 836 Ko
 svchost.exe                    944 Services                   0    27 716 Ko
-fontdrvhost.exe               1032 Services                   0     1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les driver
+fontdrvhost.exe               1032 Services                   0     1 080 Ko 
 WUDFHost.exe                  1048 Services                   0     3 536 Ko
 svchost.exe                   1172 Services                   0    16 184 Ko
 svchost.exe                   1236 Services                   0     8 020 Ko
@@ -482,6 +484,15 @@ TSVNCache.exe                 8120 Console                    3     8 816 Ko
 SearchUI.exe                  8332 Console                    3    99 372 Ko
 SettingSyncHost.exe          22976 Console                    3     5 444 Ko
 NVIDIA Web Helper.exe        14368 Console                    3    10 444 Ko
+
+
+
+Ce que j'ai retenue pour les expliquer 
+smss.exe                       496 Services                   0       472 Ko Gestionnaire de Session du Sous-Système gere toutes les app au demarages
+csrss.exe                      724 Services                   0     3 688 Ko Sert à gérer les fenêtres et les éléments graphiques de Windows. 
+wininit.exe                    828 Services                   0     4 280 Ko initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
+lsass.exe                      920 Services                   0    16 508 Ko sert a l'identification des utilisateurs 
+fontdrvhost.exe               1032 Services                   0     1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les 
 
 ----------------------------------------------------------------------------
 Scripting
