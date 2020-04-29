@@ -495,16 +495,16 @@ svchost.exe                   3540 Services                   0    10 992 Ko
 
 Ce que j'ai retenue pour les expliquer 
 
-smss.exe  472 Ko 
+smss.exe  
 Gestionnaire de Session du Sous-Système gere toutes les app au demarages
 
-csrss.exe 3 688 Ko Sert à gérer les fenêtres et les éléments graphiques de Windows. 
+csrss.exe  Sert à gérer les fenêtres et les éléments graphiques de Windows. 
 
-wininit.exe  4 280 Ko initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
+wininit.exe   initializer de windows au demarage de la machine programme qui ce lance en premier et lance tous les autres programmes
 
-lsass.exe   16 508 Ko sert a l'identification des utilisateurs 
+lsass.exe  sert a l'identification des utilisateurs 
 
-fontdrvhost.exe  1 080 Ko est un composant logiciel de Windows font driver management qui permet de gerer les fenetre et les elements graphiques
+fontdrvhost.exe  est un composant logiciel de Windows font driver management qui permet de gerer les fenetre et les elements graphiques
 
 ----------------------------------------------------------------------------
 Scripting
