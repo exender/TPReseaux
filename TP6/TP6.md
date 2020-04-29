@@ -332,7 +332,7 @@ Connexions actives
   
   ``Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize``
 
-   Id Name                                                           MainWindowTitle
+  ```powershell Id Name                                                           MainWindowTitle
    -- ----                                                           ---------------
 20688 ApplicationFrameHost                                           Paramètres
 
@@ -351,7 +351,7 @@ Connexions actives
  6708 SystemSettings                                                 CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
  
  236 WindowsInternal.ComposableShell.Experiences.TextInput.InputApp Microsoft Text Input Application
-  
+  ```
  ---------------------------------------------------------------------------
  User
  ------------------------------------------------------------------------
