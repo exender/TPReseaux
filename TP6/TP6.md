@@ -340,7 +340,17 @@ YNOV14                   YNOV15                   YNOV16
 
 YNOV17                   YNOV18                   YNOV19
 
-Seul le user bapti est l'admin de la machine comme indiquer
+``Get-LocalUser`` pour connaitre quel session est la session admin
+
+Name               Enabled Description
+----               ------- -----------
+Administrateur     False   Compte d’utilisateur d’administration
+
+bapti              True
+
+DefaultAccount     False   Compte utilisateur géré par le système.
+
+Invité             False   Compte d’utilisateur invité
 
 -----------------------------------------------------------------------------
 Processus
