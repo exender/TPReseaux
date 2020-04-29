@@ -534,3 +534,4 @@ Script 2: https://github.com/exender/TPReseaux/blob/master/TP6/script_2.bat
 _______________________________________________________________________________
 Gestion de softs
 ----------------------------------------------------------------------------
+C’est un programme qui vous permet d’installer et de désinstaller des applications à la vitesse de l’éclair en utilisant la commande choco sur w10. L'utilité il est capable de mettre à jour l’ensemble des applications installées sur votre système avec une seule commande !
