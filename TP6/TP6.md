@@ -61,7 +61,7 @@ Number FriendlyName         SerialNumber      MediaType CanPool OperationalStatu
  
  ``Get-Partition``
 
-
+```powershell
    DiskPath : \\?\scsi#disk&ven_hfs128g3&prod_9tnd-n210a#4&1665b188&0&000100#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
 
 PartitionNumber  DriveLetter Offset                                        Size Type
@@ -84,7 +84,7 @@ PartitionNumber  DriveLetter Offset                                        Size 
 2                            947775340544                                513 MB System -Grub linux sert a boot sous Ubuntu ou W10
 
 3                            948313260032                              48.33 GB Unknown -DualBoot Linux systeme linux
-
+```
 
 ---------------------------------------------------------------------------
 
