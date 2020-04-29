@@ -40,7 +40,7 @@ Modele de son touchpad:
 
 Modele des enceintes intégrées:  AudioEndpoint   Haut-parleurs (Realtek High Definition Audio)
 
-Model de son disque dur principale: INTEL SSDSCKKW256G8
+Model de son disque dur principale: HFS128G39TND-N210A
 ___________________________________________________________________________
 
 ## Disque dur
