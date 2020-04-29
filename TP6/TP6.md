@@ -107,7 +107,7 @@ Quel app ecoute sur quel port:
 
 Connexions actives
 
-  Proto  Adresse locale         Adresse distante       État
+  ``Proto  Adresse locale         Adresse distante       État
   TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
   TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1172
   TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
@@ -324,10 +324,11 @@ Connexions actives
   UDP    [fe80::3d27:2f72:e101:9c45%16]:61860  *:*                                    6524
   UDP    [fe80::7858:68c6:9986:f45e%18]:1900  *:*                                    6524
   UDP    [fe80::7858:68c6:9986:f45e%18]:2177  *:*                                    22696
-  UDP    [fe80::7858:68c6:9986:f45e%18]:61861  *:*                                    6524
+  UDP    [fe80::7858:68c6:9986:f45e%18]:61861  *:*                                    6524``
   
+  Pour savoir quel app ecoute sur quel port:
   
-  Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize
+  ``Get-Process | Where-Object {$_.mainWindowTitle} | Format-Table Id, Name, mainWindowtitle -AutoSize``
 
    Id Name                                                           MainWindowTitle
    -- ----                                                           ---------------
