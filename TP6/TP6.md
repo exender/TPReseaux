@@ -39,6 +39,8 @@ Ligne de commande pour connaitre le : ``Get-PnpDevice``
 Modele de son touchpad:
 
 Modele des enceintes intégrées:  AudioEndpoint   Haut-parleurs (Realtek High Definition Audio)
+
+Model de son disque dur principale: INTEL SSDSCKKW256G8
 ___________________________________________________________________________
 
 ## Disque dur
