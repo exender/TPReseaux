@@ -1,1 +1,2 @@
- shutdown -s -t 3600 
+Start-Sleep -s 10
+Restart-Computer
